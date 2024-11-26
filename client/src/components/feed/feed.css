@@ -1,0 +1,15 @@
+.feed{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+    
+    button {
+        background-color: var(--bg); /* Use CSS variable directly */
+        color: var(--textColor); /* Use CSS variable directly */
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}

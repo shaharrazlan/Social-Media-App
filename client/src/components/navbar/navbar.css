@@ -1,0 +1,108 @@
+:root {
+    --light-text-color: #000;
+    --light-bg: white;
+    --light-logo: darkblue;
+    --light-bg-soft: #f6f3f3;
+    --light-text-color-soft: #555;
+    --light-border: lightgray;
+  
+    --dark-text-color: whitesmoke;
+    --dark-bg: #222;
+    --dark-logo: white;
+    --dark-bg-soft: #333;
+    --dark-text-color-soft: lightgray;
+    --dark-border: #444;
+  }
+  
+  .theme-light {
+    --textColor: var(--light-text-color);
+    --bg: var(--light-bg);
+    --logo: var(--light-logo);
+    --bg-soft: var(--light-bg-soft);
+    --textColor-soft: var(--light-text-color-soft);
+    --border: var(--light-border);
+  }
+  
+  .theme-dark {
+    --textColor: var(--dark-text-color);
+    --bg: var(--dark-bg);
+    --logo: var(--dark-logo);
+    --bg-soft: var(--dark-bg-soft);
+    --textColor-soft: var(--dark-text-color-soft);
+    --border: var(--dark-border);
+  }
+  
+  
+
+
+  .icon {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    margin-right: 8px; /* Optional: Add margin for spacing */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background-color: var(--bg);
+    color: var(--textColor);
+    z-index: 999;
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        span {
+            display: flex;
+            font-size: 20px;
+            color: var(--logo);
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            padding: 1px;
+            
+            input {
+                border: none;
+                width: 500px;
+                background-color: transparent;
+                color: var(--textColor);
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            span {
+                color: var(--textColor)
+            }
+        }
+    }
+}
