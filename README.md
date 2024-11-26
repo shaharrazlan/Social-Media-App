@@ -1,7 +1,3 @@
-Here’s a detailed and engaging `README.md` for your **Social App**, designed to intrigue observers and showcase both the server and client sides with a focus on the MVC architecture and the skills/languages involved.
-
----
-
 # **FooBar Social App**
 
 A modern, feature-rich social media platform built using a full-stack approach. This application connects users, enabling them to share posts, manage friendships, and engage with an interactive feed. Designed with scalability and performance in mind, it utilizes the MVC architecture and state-of-the-art technologies.
