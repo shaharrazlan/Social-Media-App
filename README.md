@@ -2,6 +2,8 @@
 
 Welcome to **FooBar Social**, a **full-stack social media platform** designed for seamless interaction and connectivity. Built with cutting-edge technologies and a modular architecture, this app empowers users to share, connect, and engage effortlessly.
 
+![Social App Demo](https://media.giphy.com/media/iCEJlqb6JXkrv5aT9W/giphy.gif)
+
 ---
 
 ## **✨ Features**
