@@ -141,8 +141,19 @@ social-app/
 ---
 
 ## **🎨 UI Preview**
+### **Register Page**
+![Register Page](./assets/register.png)
+
+### **Login Page**
+![Login Page](./assets/login.png)
+
 ### **Home Feed**
-![Home Feed](link-to-your-image)
+![Home Feed](./assets/Home.png)
+
+### **Post**
+![Post](./assets/Post.png)
+
 ### **Profile Page**
-![Profile Page](link-to-your-image)
+![Profile Page](./assets/profile.png)
+
 
